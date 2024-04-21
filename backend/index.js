@@ -7,7 +7,7 @@ const errorController = require('./controllers/error');
 
 const app = express();
 
-const ports = process.env.PORT || 3001;
+const ports = process.env.PORT || 3002;
 
 const mysql = require("mysql");
 const db = mysql.createConnection({
